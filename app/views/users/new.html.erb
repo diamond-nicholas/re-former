@@ -1,4 +1,5 @@
-<form action="/action_page.php" method="get" accept-charset="utf-8">
+<form action="/user/create" method="get" accept-charset="UTF-8">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label for="username">username:</label>
   <input type="text" id="username" username="username"><br><br>
   <label for="email">email:</label>
