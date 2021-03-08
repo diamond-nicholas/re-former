@@ -22,6 +22,7 @@ Once you have all the above listed:
 - Create a clone of this repository. 
   - In your terminal type 'git clone https://github.com/diamond-nicholas/re-former.git'
   - From your terminal move into the cloned repository folder by using the 'cd' command 
+- In your terminal run 'rails db:migrate'.
 - In your terminal type 'rails server' to run the server.
 - Open http://localhost:3000/users/new in your browser to view the new form page. Fill out the form and save it.
 - Open http://localhost:3000/users/1/edit in your browser to view the edit form page for user 1.
